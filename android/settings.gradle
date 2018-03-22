@@ -1,0 +1,11 @@
+rootProject.name = 'Paperstack'
+include ':react-native-wallpaper-manager'
+project(':react-native-wallpaper-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wallpaper-manager/android')
+include ':react-native-onesignal'
+project(':react-native-onesignal').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-onesignal/android')
+include ':react-native-admob'
+project(':react-native-admob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-admob/android')
+include ':react-native-fetch-blob'
+project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
+
+include ':app'
